@@ -10,7 +10,7 @@ The first part of the process is collecting the data in jupyter notebook. We did
 
 **Preparing the Data**
 
-In order to prepare the data for analysis we first checked for missing/null values using the sum of the isnull function and found reading_score and math_score had some missing values. We removed all of these rows, as well as the duplicate rows using the dropna and drop_duplicates functions. We then checked our data types by using dtypes. After that check we noticed we needed to remove the “th” in all the grades and make grades an integer data type. This was done by using the str.replace function to remove the “th” and then use .astype(int) in order to make grade an integer data type.
+In order to prepare the data for analysis we first checked for missing/null values using the sum of the isna function and found reading_score and math_score had some missing values. We removed all of these rows, as well as the duplicate rows using the dropna and drop_duplicates functions. We then checked our data types by using dtypes. After that check we noticed we needed to remove the “th” in all the grades and make grades an integer data type. This was done by using the str.replace function to remove the “th” and then use .astype(int) in order to make grade an integer data type.
 
 **Summarizing the Data**
 
